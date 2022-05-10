@@ -118,7 +118,7 @@ section .bannerVideo video.active {
   font-size: 4em;
   line-height: 1em;
   font-weight: 700;
-  text-shadow: 6px 6px black;
+  text-shadow: 4.5px 4.5px black;
 }
 
 .container .content .bannerText div p {
