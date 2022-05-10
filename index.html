@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Dream</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="bannerVideo" id="slideShow">
+        <video
+          src="/assets/islandia.mp4"
+          autoplay
+          muted
+          loop
+          class="active"
+        ></video>
+        <video src="/assets/havai.MP4" autoplay muted loop></video>
+        <video src="/assets/tokyo.mp4" autoplay muted loop></video>
+        <video src="/assets/amazonia.mp4" autoplay muted loop></video>
+      </div>
+      <div class="container">
+        <header id="navbar">
+          <a href="#" class="logo">Travel Dream</a>
+          <ul>
+            <li><a href="#" class="active">Destino</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Hoteís</a></li>
+            <li><a href="#">Passagens</a></li>
+          </ul>
+          <span class="menuIcon" onclick="toggleMenu();"></span>
+        </header>
+        <div class="content">
+          <div class="bannerText" id="slideShowText">
+            <div class="active">
+              <h2>Islândia</h2>
+              <p>
+                A Islândia, país insular nórdico, tem uma paisagem exuberante,
+                com vulcões, aurora boreal, fontes termais e campos de lava.
+                Suas imensas geleiras estão protegidas nos parques nacionais
+                Vatnajökull e Snæfellsjökull. A maioria da população vive na
+                capital, Reykjavik, abastecida por energia geotérmica e sede dos
+                museus Nacional e Saga, que traçam a história viking da
+                Islândia.
+              </p>
+            </div>
+            <div>
+              <h2>Havaí</h2>
+              <p>
+                O Havaí é um arquipélago vulcânico isolado no Pacífico Central.
+                Suas ilhas são conhecidas pelas paisagens acidentadas compostas
+                de penhascos, cachoeiras, florestas tropicais e praias com areia
+                dourada, vermelha, preta e até mesmo verde. Das 6 ilhas
+                principais, Oahu tem a maior cidade e capital do Havaí,
+                Honolulu, que abriga a praia de Waikiki, em formato de lua
+                crescente, e os memoriais da Segunda Guerra Mundial, em Pearl
+                Harbor.
+              </p>
+            </div>
+            <div>
+              <h2>Tóquio</h2>
+              <p>
+                Tóquio, a movimentada capital do Japão, combina o estilo
+                ultramoderno com o tradicional, desde arranha-céus iluminados
+                por neon a templos históricos. O opulento santuário xintoísta
+                Meiji é conhecido por seu altíssimo portão e pelas florestas
+                circundantes. O Palácio Imperial fica localizado em meio a
+                jardins públicos. Os muitos museus da cidade oferecem exposições
+                que variam de arte clássica (no Museu Nacional de Tóquio) a um
+                teatro kabuki reconstruído (no Museu Edo-Tokyo).
+              </p>
+            </div>
+            <div>
+              <h2>Amazônia</h2>
+              <p>
+                A floresta tropical amazônica, que cobre boa parte do noroeste
+                do Brasil e se estende até a Colômbia, o Peru e outros países da
+                América do Sul, é a maior floresta tropical do mundo, famosa por
+                sua biodiversidade. Ela é atravessada por milhares de rios,
+                entre eles o grandioso rio Amazonas. Entre as cidades
+                ribeirinhas, com arquitetura do século XIX que data do início da
+                exploração de borracha, destacam-se Manaus e Belém, no Brasil, e
+                Iquitos e Puerto Maldonado, no Peru.
+              </p>
+            </div>
+          </div>
+        </div>
+        <ul class="sci">
+          <li>
+            <a href="#"><img src="/assets/facebook.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="/assets/twitter.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="/assets/instagram.png" alt="" /></a>
+          </li>
+        </ul>
+
+        <ul class="controls">
+          <li onclick="prevSlide();prevSlideText();">
+            <img src="/assets/left.png" alt="" />
+          </li>
+          <li onclick="nextSlide();nextSlideText();">
+            <img src="/assets/right.png" alt="" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
