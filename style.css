@@ -236,14 +236,14 @@ section .bannerVideo video.active {
     height: 50px;
     display: initial;
     z-index: 1000;
-    background: #fff url(/assets/menu.png);
+    background: #fff url(https://user-images.githubusercontent.com/103607839/167576613-1c083a3f-a414-457e-aa3a-c4cff618594d.png);
     background-size: 30px;
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
   }
   .menuIcon.active {
-    background: #fff url(/assets/close.png);
+    background: #fff url(https://user-images.githubusercontent.com/103607839/167576842-79c8aa66-245b-4f0f-9cc3-82d28fa3a756.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: center;
